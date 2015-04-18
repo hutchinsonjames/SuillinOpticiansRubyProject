@@ -1,0 +1,2 @@
+<h1>Checkout</h1>
+<%= link_to "Your order of #{current_order.order_items.size} Items, valued at #{number_to_currency current_order.subtotal}, has been processed and will be shipped shortly", cart_path, class: "btn btn-link" %>
