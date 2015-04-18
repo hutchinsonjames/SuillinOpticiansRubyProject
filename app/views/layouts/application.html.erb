@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--<title>Súillin Opticians</title> CHECK THIS LATER-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "Suillin Opticians" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Suillin Opticians" %>">
@@ -34,20 +34,3 @@
 
 </body>
 </html>
-
-<!--
-  THIS CODE MAY NO LONGER BE NECESSARY TO SUPPORT BOOTSTRAP AS WE HAVE INSTALLED BOOTSTRAP IN RAILS
-  
-  <#%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <#% if request.ssl? %>
-    <#%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
-    <#%= javascript_include_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js' %>
-  <#% else %> 
-    <#%= stylesheet_link_tag 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' %>
-    <#%= javascript_include_tag 'http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js' %>
-  <#% end %>
-  <#%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  
-  <#%= csrf_meta_tags %>
-
--->
