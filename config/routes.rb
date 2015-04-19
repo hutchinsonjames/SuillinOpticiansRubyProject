@@ -28,7 +28,9 @@ Rails.application.routes.draw do
   mount Upmin::Engine => '/admin'
   #The line below is the original reference from the Devise intall
   #root to: 'visitors#index'
+  
   root to: "site#index"
+  
   devise_for :users
   resources :users
 end

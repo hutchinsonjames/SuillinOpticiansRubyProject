@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150416112534) do
+ActiveRecord::Schema.define(version: 20150419203936) do
 
   create_table "order_items", force: true do |t|
     t.integer  "product_id"
@@ -38,11 +38,13 @@ ActiveRecord::Schema.define(version: 20150416112534) do
     t.decimal  "shipping",        precision: 12, scale: 3
     t.decimal  "total",           precision: 12, scale: 3
     t.integer  "order_status_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "orders", ["order_status_id"], name: "index_orders_on_order_status_id"
+  add_index "orders", ["user_id"], name: "index_orders_on_user_id"
 
   create_table "products", force: true do |t|
     t.string   "name"
