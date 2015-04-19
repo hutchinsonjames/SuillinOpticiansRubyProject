@@ -3,48 +3,25 @@ Suillin Opticians
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+National College of Ireland
+Hdip MBOG 2014/2015
 
-Rails Composer is open source and supported by subscribers. Please join RailsApps to support development of Rails Composer.
+Server Side Development Project
+Lecturer - Colm Bennett
 
-Problems? Issues?
------------
+Team One Submission April 2015
+Team Members:
+James Hutchinson - Student No.:    14119633
+Rachelle Mulder - Student No.:    14118467
+                
+Project Description:
 
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
+The aim of this project is to design and develop an e-commerce based web application for the domain/business 
+of your choice (e.g. an online music shop). 
 
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.1.5
-- Rails 4.1.6
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
+This e-commerce site will allow users to log onto the site and browse the inventory by various attributes, 
+e.g. product name, manufacturer, model etc. A user can register with your site to make allow for purchases on 
+the site. Once registered, the user can add items to his or her cart. Items can be added and removed by the 
+user as he or she browses the inventory. Once the user is ready to make a purchase the user is brought to a 
+payment page where details on what is in the user’s cart is given to the user and a total price is also provided. 
+The user can then make a payment for the purchases.
