@@ -9,33 +9,27 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
   </head>
+  
   <body>
     <header>
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
        <%= render 'layouts/messages' %>
-       <div class="container">
-    <div class="row">
-      <!-- Setimage to the left of page-->
-      	<div>
-					<img style="float:left" src="/assets/logo.png" alt="Súillin Opticians Logo" width="330px"/>
-				</div>
-      
-      <!-- Remove page title text
-      <div class="col-xs-6">
-        <h1><%#= link_to "Eyeware", root_path %></h1>
-      </div>
-      
-      <div class="col-xs-6 text-right">
-        <h1 class="cart-text"><%#= render 'layouts/cart_text' %></h1>
-      </div> -->
-      
-      
-    </div>
-    <hr>
-    <%= yield %>
-  </div>
-
-</body>
+    <div
+	    <div class="container" id="logobar">
+		    <div class="row">
+		      	<div>
+							<img style="float:left" src="/assets/logo.png" alt="Súillin Opticians Logo" width="330px"/>
+						</div>
+		    </div>
+			</div>
+			
+	    <%= yield %>
+	
+			<footer>
+				<%= render 'layouts/footer' %>
+			</footer>
+		</div>
+	</body>
 </html>

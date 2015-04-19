@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+#phone
+{
+    
+    margin-right: 1em;
+    float: right;
+    text-decoration: none;
+}
+
+#logobar
+{
+	display: block;
+	overflow: auto;
+	background: -webkit-linear-gradient(top, #D7CAD0 0%,#fff 100%);				
+}

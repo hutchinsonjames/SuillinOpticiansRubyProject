@@ -1,2 +1,56 @@
-<h1>Site#contact</h1>
-<p>Find me in app/views/site/contact.html.erb</p>
+<div id="body" class="gradient-background">
+				<div id="form-container">
+					<div id="form-message">
+						We would love to hear from you. You can visit our store to discuss your eye health and view our wide range of products.<br><br>
+						<strong>Súillin Opticians</strong><br>
+						<address>10 Duke Street<br>
+						Dublin 2</address>
+						Call or email us to book an appointment
+						<br>
+						Telephone: 1800 12 24 48
+						<br>
+						email: info@suillinopticians.com
+						<br><br>
+						You can also make contact by filling in this form.  We will contact you in relation to your queries. </br>
+						<br>
+
+					</div>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<div class="required">
+								<label for="fname">First Name:</label>
+								<input type="text" id="fname" name="fname" class="form-control form-inputs" placeholder="First Name">
+							</div>
+							<div class="required">
+								<label for="lname">Last Name:</label>
+								<input type="text" id="lname" name="lname" class="form-control form-inputs" placeholder="Last Name">
+							</div>
+							<div class="required">
+								<label for="email">Email:</label>
+								<input type="text" id="email" name="email" class="form-control form-inputs" placeholder="Email Address">
+							</div>
+							<div class="required">
+								<label for="query">Your Query:</label>
+								<textarea id="query" name="query" class="form-control form-inputs" placeholder="Your message here." rows="5"></textarea>
+							</div>
+							<input type="button" value="Submit" class="btn btn-default" onclick="javascript:validateForm(); return false;"/>
+							<div> * means required field</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+
+			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+				<div style="overflow:hidden;height:300px;width:auto;">
+					<div id="gmap_canvas" style="height:300px;width:auto;"></div>
+					<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+					<a class="google-map-code" id="get-map-data"></a>
+				</div>
+					<script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(53.3419369,-6.258606699999973),mapTypeId: google.maps.MapTypeId.ROADMAP};
+					map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+					marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(53.3419369, -6.258606699999973)});
+					infowindow = new google.maps.InfoWindow({content:"<b>S&uacute;illin Opticians </b><br/>10 Duke Street<br/> Dublin 2" });
+					google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});
+					infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
