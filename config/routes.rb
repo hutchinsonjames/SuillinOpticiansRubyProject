@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'site/index'
+
+  get 'site/about'
+
+  get 'site/contact'
+
   #The following lines were created when we created the controllers
   #get 'order_items/create'
   #get 'order_items/update'
@@ -22,7 +28,7 @@ Rails.application.routes.draw do
   mount Upmin::Engine => '/admin'
   #The line below is the original reference from the Devise intall
   #root to: 'visitors#index'
-  root to: "products#index"
+  root to: "site#index"
   devise_for :users
   resources :users
 end

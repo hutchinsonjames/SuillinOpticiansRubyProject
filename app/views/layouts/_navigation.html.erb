@@ -8,7 +8,11 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+      <%= link_to 'Home', site_index_path, class: 'navbar-brand' %>
+      <%= link_to 'Shop', products_path, class: 'navbar-brand' %>
+      <%= link_to 'About Us', site_about_path, class: 'navbar-brand' %>
+      <%= link_to 'Contact', site_contact_path, class: 'navbar-brand' %>
+      
       <%# Links to filter products by gender %>
       <%= link_to 'Men', men_path, class: 'navbar-brand' %>
       <%= link_to 'Women', women_path, class: 'navbar-brand' %>
