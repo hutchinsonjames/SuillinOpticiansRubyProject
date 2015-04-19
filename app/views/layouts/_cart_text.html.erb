@@ -1,3 +1,2 @@
-<%= link_to "#{current_order.order_items.size} Items in Cart ( #{number_to_currency(current_order.subtotal, :unit => "€")} )", cart_path, class: "btn btn-link" %>
-<%# Link to Checkout View %>
-<%= link_to "Checkout Now", checkout_path, class: "btn btn-link" %>
+<%= link_to "#{current_order.order_items.size} Items in Cart ( #{number_to_currency(current_order.subtotal, :unit => "€")} )", cart_path, class: "navbar-brand" %>
+<%#= link_to "Checkout Now", checkout_path, class: "btn btn-link" %>
