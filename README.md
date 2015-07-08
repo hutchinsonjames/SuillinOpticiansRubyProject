@@ -1,7 +1,7 @@
 Suillin Opticians
 ================
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://suillinopticians.herokuapp.com)
 
 National College of Ireland
 Hdip MBOG 2014/2015
