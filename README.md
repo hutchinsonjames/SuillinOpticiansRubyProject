@@ -1,8 +1,6 @@
 Suillin Opticians
 ================
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://suillinopticians.herokuapp.com)
-
 National College of Ireland
 Hdip MBOG 2014/2015
 
@@ -14,6 +12,9 @@ Team Members:
 James Hutchinson - Student No.:    14119633
 Rachelle Mulder - Student No.:    14118467
                 
+Hit the Deploy to Heroku Button to see the site running.
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://suillinopticians.herokuapp.com)
+
 Project Description:
 
 The aim of this project is to design and develop an e-commerce based web application for the domain/business 
